@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Sends the Revisit Later Date Today email alert</description>
+        <name>Revisit_later_date_today_email</name>
+        <label>Revisit later date today email</label>
+        <locationX>50</locationX>
+        <locationY>396</locationY>
+        <actionName>Opportunity.Opportunity_Revisit_Later_Notification</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <description>Checks whether the revisit later date on the opportunity is today</description>
+        <name>Revisit_Later_Date_is_today</name>
+        <label>Revisit Later Date is today?</label>
+        <locationX>182</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Revisit Later Date Not Today</defaultConnectorLabel>
+        <rules>
+            <name>Revisit_Later_Date_Today</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Revisit_Later_Date__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Flow.CurrentDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Revisit_later_date_today_email</targetReference>
+            </connector>
+            <label>Revisit Later Date Today</label>
+        </rules>
+    </decisions>
+    <description>Opportunity Revisit Later Date Reminder
+https://choco.atlassian.net/browse/OPSSYS-1292</description>
+    <environments>Default</environments>
+    <interviewLabel>Opportunity Revisit Later Date Reminder {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity Revisit Later Date Reminder</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Revisit_Later_Date_is_today</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Revisit_Later_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeName__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Vendor_Package_3</stringValue>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2022-11-30</startDate>
+            <startTime>11:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
