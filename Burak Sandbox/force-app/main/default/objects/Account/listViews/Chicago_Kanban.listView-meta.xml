@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chicago_Kanban</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Assortment__c</columns>
+    <columns>Est_of_Gastronomy_Buyers__c</columns>
+    <columns>Nr_of_active_Buyers__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Sellman</value>
+    </filters>
+    <label>Chicago Kanban</label>
+</ListView>

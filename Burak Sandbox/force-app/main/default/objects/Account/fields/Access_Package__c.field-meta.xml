@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Access_Package__c</fullName>
+    <externalId>false</externalId>
+    <label>Access Package</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>free</fullName>
+                <default>true</default>
+                <label>free</label>
+            </value>
+            <value>
+                <fullName>leadGen</fullName>
+                <default>false</default>
+                <label>leadGen</label>
+            </value>
+            <value>
+                <fullName>verified</fullName>
+                <default>false</default>
+                <label>verified</label>
+            </value>
+            <value>
+                <fullName>premium</fullName>
+                <default>false</default>
+                <label>premium</label>
+            </value>
+            <value>
+                <fullName>trial</fullName>
+                <default>false</default>
+                <label>trial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

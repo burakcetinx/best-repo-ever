@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Active Buyer</fullName>
+                <default>false</default>
+                <label>Active Buyer</label>
+            </value>
+            <value>
+                <fullName>Non Active Buyer</fullName>
+                <default>false</default>
+                <label>Non Active Buyer</label>
+            </value>
+            <value>
+                <fullName>Hard Churn</fullName>
+                <default>false</default>
+                <label>Hard Churn</label>
+            </value>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <label>Closed Lost</label>
+            </value>
+            <value>
+                <fullName>New / Undiscovered</fullName>
+                <default>false</default>
+                <label>New / Undiscovered</label>
+            </value>
+            <value>
+                <fullName>Contacted</fullName>
+                <default>false</default>
+                <label>Contacted</label>
+            </value>
+            <value>
+                <fullName>Active Outreach</fullName>
+                <default>false</default>
+                <label>Active Outreach</label>
+            </value>
+            <value>
+                <fullName>Decision Maker Reached</fullName>
+                <default>false</default>
+                <label>Decision Maker Reached</label>
+            </value>
+            <value>
+                <fullName>Negotiation</fullName>
+                <default>false</default>
+                <label>Negotiation</label>
+            </value>
+            <value>
+                <fullName>Partnership Execution</fullName>
+                <default>false</default>
+                <label>Partnership Execution</label>
+            </value>
+            <value>
+                <fullName>Active &amp; Revenue Generating</fullName>
+                <default>false</default>
+                <label>Active &amp; Revenue Generating</label>
+            </value>
+            <value>
+                <fullName>Activated / Revenue Generation</fullName>
+                <default>false</default>
+                <label>Activated / Revenue Generation</label>
+            </value>
+            <value>
+                <fullName>End of Partnership</fullName>
+                <default>false</default>
+                <label>End of Partnership</label>
+            </value>
+            <value>
+                <fullName>Disqualified</fullName>
+                <default>false</default>
+                <label>Disqualified</label>
+            </value>
+            <value>
+                <fullName>Revisit Later</fullName>
+                <default>false</default>
+                <label>Revisit Later</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

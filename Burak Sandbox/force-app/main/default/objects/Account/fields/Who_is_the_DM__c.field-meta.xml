@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Who_is_the_DM__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Is the DM different to the contact person, if so what kind of role do they have?</inlineHelpText>
+    <label>Who is the DM? 🔺</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Who is the DM)</relationshipLabel>
+    <relationshipName>DMAccounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Churn_Reason_mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+INCLUDES(Features_Requested__c , &apos;Other&apos;),
+INCLUDES( Order_Issues__c , &apos;Order Issues - Other&apos;),
+INCLUDES( Buyer_Reason__c , &apos;Supplier Pushback&apos;),
+INCLUDES(Buyer_Reason__c, &apos;Poor onboarding&apos;),
+INCLUDES(Buyer_Reason__c, &apos;User/DM doesnt trust Choco&apos;),
+INCLUDES(Buyer_Reason__c, &apos;Buyer Reasons - Other&apos;),
+INCLUDES( Competition__c , &apos;Other&apos;)
+),
+RecordType.Name == &apos;Buyer&apos;,
+ISBLANK(Churn_Reason_Details__c) ,
+NOT( $Permission.Override_Validation ),
+NOT( $Permission.Market_Intelligence )
+)</errorConditionFormula>
+    <errorMessage>Churn Reason Details is mandatory</errorMessage>
+</ValidationRule>

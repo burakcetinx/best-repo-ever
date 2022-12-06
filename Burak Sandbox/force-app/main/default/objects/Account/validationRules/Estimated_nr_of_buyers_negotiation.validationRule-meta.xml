@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_nr_of_buyers_negotiation</fullName>
+    <active>true</active>
+    <description>Estimated # of buyers is Required when Status = &quot;Negotiation&quot; for Vendor Accounts</description>
+    <errorConditionFormula>AND(
+NOT( $Permission.Override_Validation ),
+ISCHANGED(Account_Status__c),
+ISPICKVAL( Account_Status__c ,&quot;Negotiation&quot;),
+ISBLANK( Estimated_of_Buyers__c )
+)</errorConditionFormula>
+    <errorMessage>Please provide an Estimated Number of Buyers.</errorMessage>
+</ValidationRule>

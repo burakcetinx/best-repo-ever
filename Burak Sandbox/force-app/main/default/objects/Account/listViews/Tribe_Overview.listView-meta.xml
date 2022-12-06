@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tribe_Overview</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Tiering__c</columns>
+    <columns>Estimated_of_Buyers__c</columns>
+    <columns>Segmentation__c</columns>
+    <columns>Assortment__c</columns>
+    <columns>Temperature__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Bianchini</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Supplier</value>
+    </filters>
+    <filters>
+        <field>Tiering__c</field>
+        <operation>equals</operation>
+        <value>1,2</value>
+    </filters>
+    <label>Tribe Overview</label>
+</ListView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verified_Suppliers</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner_String__c</columns>
+    <columns>Admin_ID__c</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Commercial_Agreement__c</columns>
+    <columns>Partnership_Type__c</columns>
+    <columns>Target_Supplier__c</columns>
+    <columns>Verified_Supplier_Start_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Supplier</value>
+    </filters>
+    <filters>
+        <field>Verified_Supplier_Start_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Partnership_Type__c</field>
+        <operation>equals</operation>
+        <value>Verified Status</value>
+    </filters>
+    <label>Verified Suppliers</label>
+</ListView>

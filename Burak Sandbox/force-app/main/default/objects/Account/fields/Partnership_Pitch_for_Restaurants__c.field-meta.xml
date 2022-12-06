@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partnership_Pitch_for_Restaurants__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Pitch Sales Agents should use when approaching supplier referrals from this supplier</inlineHelpText>
+    <label>Partnership Pitch for Restaurants</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

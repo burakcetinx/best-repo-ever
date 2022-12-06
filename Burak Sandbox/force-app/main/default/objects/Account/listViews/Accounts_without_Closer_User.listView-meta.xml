@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_without_Closer_User</fullName>
+    <columns>Sales_Approach__c</columns>
+    <columns>Admin_ID__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>Closer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>Region 1</value>
+    </filters>
+    <filters>
+        <field>Sales_Approach__c</field>
+        <operation>equals</operation>
+        <value>Inside Sales</value>
+    </filters>
+    <filters>
+        <field>CloserUser__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Record_Type_Emoji__c</field>
+        <operation>equals</operation>
+        <value>🍽️</value>
+    </filters>
+    <label>Accounts without Closer User</label>
+</ListView>

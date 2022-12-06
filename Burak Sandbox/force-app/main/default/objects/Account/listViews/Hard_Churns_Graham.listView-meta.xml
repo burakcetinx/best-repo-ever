@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hard_Churns_Graham</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Churn_Reason__c</columns>
+    <columns>Status_Comment__c</columns>
+    <columns>Churn_Reason_Details__c</columns>
+    <columns>Total_Orders__c</columns>
+    <columns>Who_is_the_DM__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Who_makes_the_orders__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>Hidden_ID__c</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Account_Owner_Email__c</columns>
+    <columns>Primary_Contact_Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>Sslat</value>
+    </filters>
+    <filters>
+        <field>Hidden_ID__c</field>
+        <operation>contains</operation>
+        <value>HCLO</value>
+    </filters>
+    <label>Sean&apos;s Churns</label>
+</ListView>

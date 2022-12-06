@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Choco_Web_or_Phone_Users</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Nr_of_active_Buyers__c</columns>
+    <columns>Choco_Web_Usage_Status__c</columns>
+    <columns>Web_Last_Session_Date__c</columns>
+    <columns>App_Usage_Status__c</columns>
+    <columns>App_Last_Session_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Choco_Web_Usage_Status__c</field>
+        <operation>equals</operation>
+        <value>Trial,Active</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>BE</value>
+    </filters>
+    <filters>
+        <field>App_Usage_Status__c</field>
+        <operation>equals</operation>
+        <value>Trial,Active</value>
+    </filters>
+    <label>Choco Web or Phone Users</label>
+</ListView>

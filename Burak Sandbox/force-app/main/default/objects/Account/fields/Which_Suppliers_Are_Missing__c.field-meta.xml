@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Which_Suppliers_Are_Missing__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Think about different categories missing such as drinks, produce, meat, and their names if possible!</inlineHelpText>
+    <label>Which Vendors Are Missing? 🔺</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

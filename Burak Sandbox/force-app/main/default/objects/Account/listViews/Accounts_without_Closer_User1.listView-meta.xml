@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_without_Closer_User1</fullName>
+    <columns>Metro_Area__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Closer__c</columns>
+    <columns>Account_Owner_String__c</columns>
+    <columns>NAU_Date__c</columns>
+    <columns>Last_Order_Time__c</columns>
+    <columns>Status_Comment__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>Region 2</value>
+    </filters>
+    <filters>
+        <field>Record_Type_Emoji__c</field>
+        <operation>equals</operation>
+        <value>🍽️</value>
+    </filters>
+    <filters>
+        <field>NAU_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Account_Owner_Role__c</field>
+        <operation>contains</operation>
+        <value>Sales</value>
+    </filters>
+    <filters>
+        <field>Status_Comment__c</field>
+        <operation>contains</operation>
+        <value>ready,READY</value>
+    </filters>
+    <label>R2 NABs Backlog</label>
+</ListView>

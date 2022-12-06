@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerType__c</fullName>
+    <externalId>false</externalId>
+    <label>Partner Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Food Delivery Apps</fullName>
+                <default>false</default>
+                <label>Food Delivery Apps</label>
+            </value>
+            <value>
+                <fullName>Food waste Apps</fullName>
+                <default>false</default>
+                <label>Food waste Apps</label>
+            </value>
+            <value>
+                <fullName>POS Software</fullName>
+                <default>false</default>
+                <label>POS Software</label>
+            </value>
+            <value>
+                <fullName>Payment solutions</fullName>
+                <default>false</default>
+                <label>Payment solutions</label>
+            </value>
+            <value>
+                <fullName>Restaurant software</fullName>
+                <default>false</default>
+                <label>Restaurant software</label>
+            </value>
+            <value>
+                <fullName>Consulting agency,</fullName>
+                <default>false</default>
+                <label>Consulting agency,</label>
+            </value>
+            <value>
+                <fullName>Ghost kitchen network</fullName>
+                <default>false</default>
+                <label>Ghost kitchen network</label>
+            </value>
+            <value>
+                <fullName>Hospitality associations</fullName>
+                <default>false</default>
+                <label>Hospitality associations</label>
+            </value>
+            <value>
+                <fullName>Gastronomic schools</fullName>
+                <default>false</default>
+                <label>Gastronomic schools</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

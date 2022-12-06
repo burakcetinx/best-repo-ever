@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shirazi_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Account_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Admin_ID__c</field>
+        <operation>contains</operation>
+        <value>BLLR8N,B0673B,BB215P,B8P3YL,B7M6NB,BM4HSH,BG7TM5,BJ4QFN,BVMRSG,BQ44KB,B9KDHW,BKXV6C,B8ECR7,BP3PT9,B6119U,BL3DV4,B6XTJL</value>
+    </filters>
+    <label>Shirazi Accounts</label>
+    <sharedTo>
+        <group>United_States</group>
+    </sharedTo>
+</ListView>

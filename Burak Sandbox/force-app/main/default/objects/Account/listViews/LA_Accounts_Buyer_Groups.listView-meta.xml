@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LA_Accounts_Buyer_Groups</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Buyer_Type_Category_New__c</columns>
+    <columns>Buyer_Type__c</columns>
+    <columns>Type_of_Chain__c</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>Child_Accounts__c</columns>
+    <columns>Child_Leads__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Metro_Area__c</field>
+        <operation>equals</operation>
+        <value>Los Angeles</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Buyer_Group</value>
+    </filters>
+    <filters>
+        <field>Operational_Status__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Child_Leads__c</field>
+        <operation>lessThan</operation>
+        <value>5</value>
+    </filters>
+    <label>LA Accounts - Buyer Groups</label>
+</ListView>

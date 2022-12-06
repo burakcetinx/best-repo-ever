@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tiering__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Estimated_of_Buyers__c &gt;= 250 
+    &amp;&amp; Estimated_of_Buyers__c &lt;5000
+    &amp;&amp; Assortment_Prio__c=&quot;TOP&quot;,
+    1,
+    IF(
+        Estimated_of_Buyers__c &gt;0
+        &amp;&amp; Estimated_of_Buyers__c &lt; 250
+        &amp;&amp; Assortment_Prio__c=&quot;TOP&quot;,
+        2, 
+        IF(
+            Estimated_of_Buyers__c &gt;= 250
+            &amp;&amp; Estimated_of_Buyers__c &lt;5000
+            &amp;&amp; Assortment_Prio__c=&quot;MEDIUM&quot;,
+            2, 
+            IF(
+                Estimated_of_Buyers__c &gt;=5000
+                &amp;&amp; Assortment_Prio__c=&quot;TOP&quot;,
+                3, 
+                IF(
+                   Estimated_of_Buyers__c &gt;0
+                   &amp;&amp; Estimated_of_Buyers__c &lt; 250
+                   &amp;&amp; Assortment_Prio__c=&quot;MEDIUM&quot;,
+                    3, 
+                    IF(
+                       Estimated_of_Buyers__c &gt;= 250
+                       &amp;&amp; Estimated_of_Buyers__c&lt;5000
+                       &amp;&amp; Assortment_Prio__c=&quot;LOW&quot;,
+                       3,
+                        IF(
+                           TEXT(Estimated_of_Buyers__c)=&quot;0&quot;
+                           ||
+                           ISBLANK(TEXT(Assortment__c)),
+                            0,
+                            4
+                            )
+                            
+                        )
+                    )
+                )
+            )
+        )
+    )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tiering</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

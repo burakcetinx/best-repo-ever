@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_User_Sys_Admin</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $Permission.Override_Validation ),
+ISCHANGED(Account_Status__c),
+!ISCHANGED( NAU_Date__c),
+OR(
+ISPICKVAL(Account_Status__c , &quot;Active Buyer&quot;)
+),
+User_Role__c &lt;&gt; &quot;Sales Teamlead&quot;,
+User_Role__c &lt;&gt; &quot;System Administrator&quot;,
+User_Role__c &lt;&gt;&quot;City Lead&quot;,
+User_Role__c &lt;&gt;&quot;Sales Lead&quot;,
+User_Role__c &lt;&gt;&quot;Account Management Teamlead&quot;,
+NOT($Permission.Convert_Leads)
+)</errorConditionFormula>
+    <errorDisplayField>Account_Status__c</errorDisplayField>
+    <errorMessage>You cannot manually select this account status</errorMessage>
+</ValidationRule>

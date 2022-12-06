@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR( 
+AND( 
+ISNEW(), 
+NOT(ISBLANK(  Website )), 
+LOWER(LEFT(Website,4)) &lt;&gt; &quot;www.&quot;, 
+LOWER(LEFT(Website,12)) &lt;&gt; &quot;https://www.&quot; 
+), 
+
+AND( 
+ISCHANGED( Website ), 
+NOT(ISBLANK( Website)), 
+LOWER(LEFT(Website,4)) &lt;&gt; &quot;www.&quot;, 
+LOWER(LEFT(Website,12)) &lt;&gt; &quot;https://www.&quot; 
+) 
+)</errorConditionFormula>
+    <errorDisplayField>Website</errorDisplayField>
+    <errorMessage>Please enter a valid Website URL</errorMessage>
+</ValidationRule>

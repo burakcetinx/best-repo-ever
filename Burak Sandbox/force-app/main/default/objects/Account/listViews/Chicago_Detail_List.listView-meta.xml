@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chicago_Detail_List</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Follow_Up_Date__c</columns>
+    <columns>Follow_Up_Details__c</columns>
+    <columns>Status_Comment__c</columns>
+    <columns>VM_Handover_Comment__c</columns>
+    <columns>Assortment__c</columns>
+    <columns>Tiering__c</columns>
+    <columns>Est_of_Gastronomy_Buyers__c</columns>
+    <columns>Nr_of_active_Buyers__c</columns>
+    <columns>ERP_Tech_System__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Sellman</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Supplier</value>
+    </filters>
+    <label>Chicago Detail List</label>
+</ListView>

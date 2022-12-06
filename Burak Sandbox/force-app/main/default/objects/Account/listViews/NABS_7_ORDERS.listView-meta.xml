@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NABS_7_ORDERS</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>Total_Orders__c</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>Last_Order_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Hidden_ID__c</field>
+        <operation>contains</operation>
+        <value>TEST NAB</value>
+    </filters>
+    <label>NABS 7 ORDERS</label>
+</ListView>

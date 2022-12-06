@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_SF_updates_Philadelphia</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Metro_Area__c</columns>
+    <columns>Assortment__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Partnership_Type__c</columns>
+    <columns>Nr_of_Buyers__c</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Total_Orders__c</columns>
+    <columns>Admin_ID__c</columns>
+    <columns>Number_of_Chats__c</columns>
+    <columns>Status_Comment__c</columns>
+    <columns>Supplier_Behavior__c</columns>
+    <columns>Partnership_Pitch_for_Restaurants__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Supplier</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STATE</field>
+        <operation>equals</operation>
+        <value>Massachusetts</value>
+    </filters>
+    <label>Supplie Funnel - Tal</label>
+</ListView>

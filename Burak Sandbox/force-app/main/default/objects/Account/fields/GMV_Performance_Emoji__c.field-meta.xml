@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GMV_Performance_Emoji__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Account_Tier__c)=&quot;&quot;|| TEXT(Account_Tier__c)=&quot;In Progress&quot; || TEXT(Account_Tier__c)=&quot;Non Active&quot; ,&quot;&quot;,
+CASE( GMV_Performance__c ,
+0, IMAGE(&quot;/resource/red_Emoji&quot;, &quot;red&quot;,20,20),
+1, IMAGE(&quot;/resource/green_Emoji&quot;, &quot;green&quot;,20,20),
+&quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>GMV Performance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

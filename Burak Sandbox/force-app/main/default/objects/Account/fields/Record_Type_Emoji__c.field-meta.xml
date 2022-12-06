@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Type_Emoji__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RecordType.Name = &apos;Buyer&apos;,&apos;🍽️&apos;,
+ IF( RecordType.Name = &apos;Buyer Group&apos;, &apos;🏪&apos;,
+  IF(RecordType.Name = &apos;Supplier&apos;, &apos;🚛&apos;,
+   IF(RecordType.Name = &apos;ERP Systems&apos;,&apos;💽&apos;,
+    IF(RecordType.Name = &apos;Carrier&apos;,&apos;🚦&apos;,
+    &apos;&apos;)
+   )
+  )
+ )
+)&amp;
+IF( CS_Trusted_Supplier__c ,&quot; ✅&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Record Type Emoji</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

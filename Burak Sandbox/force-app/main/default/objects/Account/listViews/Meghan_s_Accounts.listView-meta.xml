@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meghan_s_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>number_of_active_chats__c</columns>
+    <columns>Nr_Of_Active_Users__c</columns>
+    <columns>Number_of_Chats__c</columns>
+    <columns>Total_Orders__c</columns>
+    <columns>Flexi_Churn__c</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Account_Tier__c</columns>
+    <columns>Last_Order_Time__c</columns>
+    <columns>PARENT_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Email__c</field>
+        <operation>equals</operation>
+        <value>Meghan.chang@choco.com</value>
+    </filters>
+    <label>Meghan&apos;s Accounts</label>
+</ListView>

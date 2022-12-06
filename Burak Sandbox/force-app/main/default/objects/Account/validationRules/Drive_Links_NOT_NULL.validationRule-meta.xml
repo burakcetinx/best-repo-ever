@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drive_Links_NOT_NULL</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( 
+OR( 
+ISNEW(), 
+ISCHANGED(  Account_Status__c  ), 
+ISCHANGED(Drive_Links__c )), 
+ISBLANK(Drive_Links__c ), 
+ISPICKVAL(Account_Status__c  , &quot;Account Created&quot;) , 
+ISPICKVAL(PRIORVALUE( Account_Status__c ),&quot;Data Received&quot;)
+)</errorConditionFormula>
+    <errorMessage>Please add the Drive links</errorMessage>
+</ValidationRule>

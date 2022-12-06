@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Churn_Reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The reason why the account has hard churned</inlineHelpText>
+    <label>Churn Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internal Restructuring</fullName>
+                <default>false</default>
+                <label>Internal Restructuring</label>
+            </value>
+            <value>
+                <fullName>Missing Personal Contact</fullName>
+                <default>false</default>
+                <label>Missing Personal Contact/Old Habits</label>
+            </value>
+            <value>
+                <fullName>Missing Product Features</fullName>
+                <default>false</default>
+                <label>Missing Product Features</label>
+            </value>
+            <value>
+                <fullName>Not That Many Orders</fullName>
+                <default>false</default>
+                <label>Not That Many Orders</label>
+            </value>
+            <value>
+                <fullName>Order Issue (Internal)</fullName>
+                <default>false</default>
+                <label>Order Issue (Internal)</label>
+            </value>
+            <value>
+                <fullName>Order Issue (External)</fullName>
+                <default>false</default>
+                <label>Order Issue (External)</label>
+            </value>
+            <value>
+                <fullName>Out of Business</fullName>
+                <default>false</default>
+                <label>Out of Business</label>
+            </value>
+            <value>
+                <fullName>Improper Onboarding</fullName>
+                <default>false</default>
+                <label>Poor Onboarding</label>
+            </value>
+            <value>
+                <fullName>Seasonal Closure</fullName>
+                <default>false</default>
+                <label>Seasonal Closure</label>
+            </value>
+            <value>
+                <fullName>Supplier Influence</fullName>
+                <default>false</default>
+                <label>Supplier Influence</label>
+            </value>
+            <value>
+                <fullName>Rekki</fullName>
+                <default>false</default>
+                <label>Rekki</label>
+            </value>
+            <value>
+                <fullName>Other Competition</fullName>
+                <default>false</default>
+                <label>Other Competition</label>
+            </value>
+            <value>
+                <fullName>Temporarily Out of Business</fullName>
+                <default>false</default>
+                <label>Temporarily Out of Business</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Yokitup</fullName>
+                <default>false</default>
+                <label>Yokitup</label>
+            </value>
+            <value>
+                <fullName>Easilys</fullName>
+                <default>false</default>
+                <label>Easilys</label>
+            </value>
+            <value>
+                <fullName>Out of the business</fullName>
+                <default>false</default>
+                <label>Out of the business</label>
+            </value>
+            <value>
+                <fullName>Lists Too Long</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lists Too Long</label>
+            </value>
+            <value>
+                <fullName>New Suppliers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New Suppliers</label>
+            </value>
+            <value>
+                <fullName>No Confirmations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Confirmations</label>
+            </value>
+            <value>
+                <fullName>No Process Improvement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Process Improvement</label>
+            </value>
+            <value>
+                <fullName>Webshops</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prefer Webshops</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

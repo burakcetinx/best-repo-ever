@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FF_Company_Reason_Dead__c</fullName>
+    <description>Additional context for why a contact was marked “dead.”</description>
+    <externalId>false</externalId>
+    <label>FF Company Reason Dead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+                <label>No BANT</label>
+            </value>
+            <value>
+                <fullName>Selected Competitor</fullName>
+                <default>false</default>
+                <label>Selected Competitor</label>
+            </value>
+            <value>
+                <fullName>Too Expensive</fullName>
+                <default>false</default>
+                <label>Too Expensive</label>
+            </value>
+            <value>
+                <fullName>Not a priority</fullName>
+                <default>false</default>
+                <label>Not a priority</label>
+            </value>
+            <value>
+                <fullName>Solution in Place</fullName>
+                <default>false</default>
+                <label>Solution in Place</label>
+            </value>
+            <value>
+                <fullName>Not Convinced of Value</fullName>
+                <default>false</default>
+                <label>Not Convinced of Value</label>
+            </value>
+            <value>
+                <fullName>Not at Company Anymore</fullName>
+                <default>false</default>
+                <label>Not at Company Anymore</label>
+            </value>
+            <value>
+                <fullName>Not Right Contact</fullName>
+                <default>false</default>
+                <label>Not Right Contact</label>
+            </value>
+            <value>
+                <fullName>Unsubscribed</fullName>
+                <default>false</default>
+                <label>Unsubscribed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

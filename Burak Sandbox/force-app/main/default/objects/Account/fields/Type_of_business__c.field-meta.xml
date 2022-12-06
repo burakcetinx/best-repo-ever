@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_business__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First Mile</fullName>
+                <default>false</default>
+                <label>First Mile</label>
+            </value>
+            <value>
+                <fullName>Last Mile</fullName>
+                <default>false</default>
+                <label>Last Mile</label>
+            </value>
+            <value>
+                <fullName>Linehaul</fullName>
+                <default>false</default>
+                <label>Linehaul</label>
+            </value>
+            <value>
+                <fullName>Charter</fullName>
+                <default>false</default>
+                <label>Charter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

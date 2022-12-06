@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Type_New__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Restaurant (fast food)</fullName>
+                <default>false</default>
+                <label>Restaurant (fast food)</label>
+            </value>
+            <value>
+                <fullName>Restaurant (standard)</fullName>
+                <default>false</default>
+                <label>Restaurant (standard)</label>
+            </value>
+            <value>
+                <fullName>Bakery</fullName>
+                <default>false</default>
+                <label>Bakery</label>
+            </value>
+            <value>
+                <fullName>Cafe</fullName>
+                <default>false</default>
+                <label>Cafe</label>
+            </value>
+            <value>
+                <fullName>Bar</fullName>
+                <default>false</default>
+                <label>Bar</label>
+            </value>
+            <value>
+                <fullName>Delicatessen</fullName>
+                <default>false</default>
+                <label>Delicatessen</label>
+            </value>
+            <value>
+                <fullName>Nightclub</fullName>
+                <default>false</default>
+                <label>Nightclub</label>
+            </value>
+            <value>
+                <fullName>Restaurant (fine dining)</fullName>
+                <default>false</default>
+                <label>Restaurant (fine dining)</label>
+            </value>
+            <value>
+                <fullName>Restaurant (fast casual)</fullName>
+                <default>false</default>
+                <label>Restaurant (fast casual)</label>
+            </value>
+            <value>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+                <label>Grocery</label>
+            </value>
+            <value>
+                <fullName>Restaurant (delivery)</fullName>
+                <default>false</default>
+                <label>Restaurant (delivery)</label>
+            </value>
+            <value>
+                <fullName>Dessert</fullName>
+                <default>false</default>
+                <label>Dessert</label>
+            </value>
+            <value>
+                <fullName>Restaurant (modern)</fullName>
+                <default>false</default>
+                <label>Restaurant (modern)</label>
+            </value>
+            <value>
+                <fullName>Alcohol Producer</fullName>
+                <default>false</default>
+                <label>Alcohol Producer</label>
+            </value>
+            <value>
+                <fullName>Commerce</fullName>
+                <default>false</default>
+                <label>Commerce</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Bistro</fullName>
+                <default>false</default>
+                <label>Bistro</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Catering</fullName>
+                <default>false</default>
+                <label>Catering</label>
+            </value>
+            <value>
+                <fullName>Institutional</fullName>
+                <default>false</default>
+                <label>Institutional</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Residential</fullName>
+                <default>false</default>
+                <label>Residential</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

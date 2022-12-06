@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>List_Sent_To__c</fullName>
+    <externalId>false</externalId>
+    <label>List Sent To</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buyer Mail</fullName>
+                <default>false</default>
+                <label>Buyer Mail</label>
+            </value>
+            <value>
+                <fullName>Choco Mail</fullName>
+                <default>false</default>
+                <label>Choco Mail</label>
+            </value>
+            <value>
+                <fullName>Private CS Mail</fullName>
+                <default>false</default>
+                <label>Private CS Mail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

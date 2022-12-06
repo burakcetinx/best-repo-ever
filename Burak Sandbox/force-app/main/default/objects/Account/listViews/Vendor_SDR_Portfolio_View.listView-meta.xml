@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_SDR_Portfolio_View</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Number_of_Chats__c</columns>
+    <columns>Nr_of_active_Buyers__c</columns>
+    <columns>Assortment__c</columns>
+    <columns>Estimated_of_Buyers__c</columns>
+    <columns>Est_of_Gastronomy_Buyers__c</columns>
+    <columns>Tiering__c</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Email__c</field>
+        <operation>equals</operation>
+        <value>felix@choco.com,jakob.schoenfeld@choco.com</value>
+    </filters>
+    <label>Vendor SDR_Portfolio View</label>
+</ListView>

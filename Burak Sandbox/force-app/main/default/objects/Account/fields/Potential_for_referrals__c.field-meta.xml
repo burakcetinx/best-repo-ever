@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential_for_referrals__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Are they well connected, have they suggested anyone already, are they part or a group?</inlineHelpText>
+    <label>Potential for referrals</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Already Asked Negative</fullName>
+                <default>false</default>
+                <label>Already Asked (negative)</label>
+            </value>
+            <value>
+                <fullName>Already Asked (positive)</fullName>
+                <default>false</default>
+                <label>Already Asked (positive)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

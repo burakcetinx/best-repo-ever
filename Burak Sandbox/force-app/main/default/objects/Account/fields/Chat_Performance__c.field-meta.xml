@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chat_Performance__c</fullName>
+    <description>Market Intelligence fills this field with Account Tiering so that I as an Account Manager can create reports and trigger tasks to manage my outreach better.</description>
+    <externalId>false</externalId>
+    <label>Chat Performance Value</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

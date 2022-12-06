@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Negotiation_Account_Check</fullName>
+    <active>false</active>
+    <description>Deactivated a part of OPSSYS-1030</description>
+    <errorConditionFormula>AND(
+$RecordType.Name=&apos;Supplier&apos;,
+ISCHANGED(Account_Status__c),
+ISPICKVAL(Account_Status__c,&apos;Negotiation&apos;), 
+Nego_Opps_Exists__c  == false,
+NOT($Permission.Market_Intelligence),
+NOT($Permission.Override_Validation )
+)</errorConditionFormula>
+    <errorMessage>Please make sure one of these Opportunity/Stage has been created: “Growth/Proposal Sent, ERP/Proposal Sent, Discovery/First Offer Sent or Payment/Active Outreach Payments”  related to the account. Please complete the ERP/Tech System field!</errorMessage>
+</ValidationRule>

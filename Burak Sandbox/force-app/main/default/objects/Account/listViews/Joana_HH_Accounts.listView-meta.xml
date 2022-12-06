@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Joana_HH_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Nr_of_active_Buyers__c</columns>
+    <columns>Last_Order_Received_Date__c</columns>
+    <columns>Total_Orders__c</columns>
+    <columns>Assortment__c</columns>
+    <columns>Status_Comment__c</columns>
+    <columns>Confirmation_Rate__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>Metro_Area__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>contains</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Bunge</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Supplier</value>
+    </filters>
+    <filters>
+        <field>Metro_Area__c</field>
+        <operation>equals</operation>
+        <value>Hamburg</value>
+    </filters>
+    <label>Joana HH Accounts</label>
+</ListView>

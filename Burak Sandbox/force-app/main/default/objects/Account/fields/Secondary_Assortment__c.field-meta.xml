@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Assortment__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Multi-select secondary assortment of supplier</inlineHelpText>
+    <label>Secondary Assortment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baked Goods</fullName>
+                <default>false</default>
+                <label>Baked Goods</label>
+            </value>
+            <value>
+                <fullName>Beer</fullName>
+                <default>false</default>
+                <label>Beer</label>
+            </value>
+            <value>
+                <fullName>Broadliner</fullName>
+                <default>false</default>
+                <label>Broadliner</label>
+            </value>
+            <value>
+                <fullName>Chemicals &amp; Cleaning Supplies</fullName>
+                <default>false</default>
+                <label>Chemicals &amp; Cleaning Supplies</label>
+            </value>
+            <value>
+                <fullName>Coffee</fullName>
+                <default>false</default>
+                <label>Coffee</label>
+            </value>
+            <value>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+                <label>Dairy</label>
+            </value>
+            <value>
+                <fullName>Dry Goods</fullName>
+                <default>false</default>
+                <label>Dry Goods</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>Meat &amp; Poultry</fullName>
+                <default>false</default>
+                <label>Meat &amp; Poultry</label>
+            </value>
+            <value>
+                <fullName>Paper &amp; Packaging</fullName>
+                <default>false</default>
+                <label>Paper &amp; Packaging</label>
+            </value>
+            <value>
+                <fullName>Produce</fullName>
+                <default>false</default>
+                <label>Produce</label>
+            </value>
+            <value>
+                <fullName>Seafood</fullName>
+                <default>false</default>
+                <label>Seafood</label>
+            </value>
+            <value>
+                <fullName>Soft Drinks</fullName>
+                <default>false</default>
+                <label>Soft Drinks</label>
+            </value>
+            <value>
+                <fullName>Speciality</fullName>
+                <default>false</default>
+                <label>Speciality</label>
+            </value>
+            <value>
+                <fullName>Spirits</fullName>
+                <default>false</default>
+                <label>Spirits</label>
+            </value>
+            <value>
+                <fullName>Tea</fullName>
+                <default>false</default>
+                <label>Tea</label>
+            </value>
+            <value>
+                <fullName>Wine</fullName>
+                <default>false</default>
+                <label>Wine</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

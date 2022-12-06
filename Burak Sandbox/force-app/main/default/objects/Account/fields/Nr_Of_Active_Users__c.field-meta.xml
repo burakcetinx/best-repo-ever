@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nr_Of_Active_Users__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Active User here = User that has placed an order, contributed to an order or performed a delivery check in the last 4 weeks</inlineHelpText>
+    <label># Of Active Users</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

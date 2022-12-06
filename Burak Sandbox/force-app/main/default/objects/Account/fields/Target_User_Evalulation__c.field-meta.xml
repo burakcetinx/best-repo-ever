@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_User_Evalulation__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ AND(
+  TEXT( Buyer_Type__c ) = &apos;Restaurant&apos;,
+  GMaps_Rating__c &gt;= 4,
+  NOT(ISBLANK( Social_Instagram__c ))
+ ),
+ IF( Text(Parent_Account__r.Scope__c) = &quot;Local&quot;,
+  &quot;Focus Target User&quot;,
+  &quot;Target User&quot;
+ ),
+ &quot;Non-Target User&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Target Users are Users meeting the following criteria : &quot;Primary Type&quot; = Restaurant, &quot;Google Maps Rating&quot; &gt;= 4,00 and have Instagram.</inlineHelpText>
+    <label>Target User Evalulation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

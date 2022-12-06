@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commercial_Agreement__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the signed commercial (revenue generating) agreement you have</inlineHelpText>
+    <label>Commercial Agreement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Supplier_Commercial_Agreement</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

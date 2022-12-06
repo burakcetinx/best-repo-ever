@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confirm_Premium_Opp_status</fullName>
+    <active>false</active>
+    <description>OPSSYS-1030
+Confirms that this account is related to at least one
+Premium: order management opportunity with status after signed/onboarding
+OR
+Premium: Marketplace opportunity with status closed succeeded</description>
+    <errorConditionFormula>NOT($Profile.Name = &apos;System Administrator&apos;)
+&amp;&amp;
+NOT($Permission.Override_Validation)
+&amp;&amp;
+ISCHANGED(Account_Status__c)
+&amp;&amp;
+(ISPICKVAL(Account_Status__c,&apos;Partnership Execution&apos;) 
+||
+ISPICKVAL(Account_Status__c,&apos;Active &amp; Revenue Generating&apos;))
+&amp;&amp;
+Nr_of_Premium_Order_Management_Opp__c &lt; 1</errorConditionFormula>
+    <errorMessage>Make sure we have a relevant opportunity on a stage where we actively negotiate.</errorMessage>
+</ValidationRule>

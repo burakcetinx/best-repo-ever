@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_Systems_Other_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $Permission.Override_Validation ),
+INCLUDES( Tech_Systems__c ,&quot;Others&quot;),
+ISBLANK(  Tech_Systems_Other__c  )
+
+
+)</errorConditionFormula>
+    <errorDisplayField>Tech_Systems__c</errorDisplayField>
+    <errorMessage>Please provide a Value in ERP System field.</errorMessage>
+</ValidationRule>

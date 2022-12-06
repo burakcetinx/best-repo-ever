@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Equipments__c</fullName>
+    <externalId>false</externalId>
+    <label>Special Equipments</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mono Temp</fullName>
+                <default>false</default>
+                <label>Mono Temp</label>
+            </value>
+            <value>
+                <fullName>Multi Temp</fullName>
+                <default>false</default>
+                <label>Multi Temp</label>
+            </value>
+            <value>
+                <fullName>Tail Lift</fullName>
+                <default>false</default>
+                <label>Tail Lift</label>
+            </value>
+            <value>
+                <fullName>Forklift/ Lift truck</fullName>
+                <default>false</default>
+                <label>Forklift/ Lift truck</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Research_ERP_field_validation</fullName>
+    <active>true</active>
+    <description>A supplier Account must have the ERP/Tech System field populated in one of the following statuses.
+
+Negotiation
+Partnership Execution
+Active &amp; Revenue Generating
+
+https://choco.atlassian.net/browse/OPSSYS-642</description>
+    <errorConditionFormula>AND(
+RecordType.Name =&quot;Supplier&quot;,
+NOT( $Permission.Override_Validation ),
+OR(TEXT( Account_Status__c) = &quot;Negotiation&quot;,
+TEXT( Account_Status__c) = &quot;Partnership Execution&quot;,
+TEXT( Account_Status__c) = &quot;Active &amp; Revenue Generating&quot;
+),
+ISBLANK( ERP_Tech_System__c )
+
+&amp;&amp; $Profile.Id &lt;&gt; &apos;00e1r0000013R1G&apos;
+)</errorConditionFormula>
+    <errorMessage>Please complete the ERP/Tech System field!</errorMessage>
+</ValidationRule>

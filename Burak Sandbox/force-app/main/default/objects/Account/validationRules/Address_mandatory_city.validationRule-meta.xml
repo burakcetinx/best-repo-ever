@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_mandatory_city</fullName>
+    <active>true</active>
+    <description>EDIT: Added override validation permission</description>
+    <errorConditionFormula>AND(
+NOT(RecordType.DeveloperName = &apos;Supplier&apos;),
+NOT(RecordType.DeveloperName = &apos;Buyer_Group&apos;),
+NOT( $Permission.Market_Intelligence ),
+NOT( $Permission.Override_Validation ),
+ISBLANK(BillingCity )
+)</errorConditionFormula>
+    <errorDisplayField>BillingCity</errorDisplayField>
+    <errorMessage>Please fill out the City</errorMessage>
+</ValidationRule>

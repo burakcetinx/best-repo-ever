@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HARD_CHURN</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status_Comment__c</field>
+        <operation>contains</operation>
+        <value>back to sales</value>
+    </filters>
+    <label>HARD CHURN</label>
+</ListView>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FF_Company_Original_Source__c</fullName>
+    <description>First known conversion source.</description>
+    <externalId>false</externalId>
+    <label>FF Company Original Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Organic Search</fullName>
+                <default>false</default>
+                <label>Organic Search</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Paid Search</fullName>
+                <default>false</default>
+                <label>Paid Search</label>
+            </value>
+            <value>
+                <fullName>Paid Social</fullName>
+                <default>false</default>
+                <label>Paid Social</label>
+            </value>
+            <value>
+                <fullName>Web Referral</fullName>
+                <default>false</default>
+                <label>Web Referral</label>
+            </value>
+            <value>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+                <label>Email Marketing</label>
+            </value>
+            <value>
+                <fullName>Direct</fullName>
+                <default>false</default>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>TSO Email</fullName>
+                <default>false</default>
+                <label>TSO Email</label>
+            </value>
+            <value>
+                <fullName>TSO Call</fullName>
+                <default>false</default>
+                <label>TSO Call</label>
+            </value>
+            <value>
+                <fullName>TSO Social</fullName>
+                <default>false</default>
+                <label>TSO Social</label>
+            </value>
+            <value>
+                <fullName>Sales Email</fullName>
+                <default>false</default>
+                <label>Sales Email</label>
+            </value>
+            <value>
+                <fullName>Sales Call</fullName>
+                <default>false</default>
+                <label>Sales Call</label>
+            </value>
+            <value>
+                <fullName>Sales Social</fullName>
+                <default>false</default>
+                <label>Sales Social</label>
+            </value>
+            <value>
+                <fullName>Live Meeting</fullName>
+                <default>false</default>
+                <label>Live Meeting</label>
+            </value>
+            <value>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+                <label>Tradeshow</label>
+            </value>
+            <value>
+                <fullName>List Import</fullName>
+                <default>false</default>
+                <label>List Import</label>
+            </value>
+            <value>
+                <fullName>Live Chat</fullName>
+                <default>false</default>
+                <label>Live Chat</label>
+            </value>
+            <value>
+                <fullName>SMS Text</fullName>
+                <default>false</default>
+                <label>SMS Text</label>
+            </value>
+            <value>
+                <fullName>Referral - Network</fullName>
+                <default>false</default>
+                <label>Referral - Network</label>
+            </value>
+            <value>
+                <fullName>Referral - Partner</fullName>
+                <default>false</default>
+                <label>Referral - Partner</label>
+            </value>
+            <value>
+                <fullName>Referral - Customer</fullName>
+                <default>false</default>
+                <label>Referral - Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

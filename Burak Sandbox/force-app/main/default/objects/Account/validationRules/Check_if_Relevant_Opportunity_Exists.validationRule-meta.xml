@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_if_Relevant_Opportunity_Exists</fullName>
+    <active>false</active>
+    <description>Deactivated as part of OPSSYS-1030</description>
+    <errorConditionFormula>AND(
+$RecordType.Name=&apos;Supplier&apos;,
+ISCHANGED(Account_Status__c),
+ISPICKVAL(Account_Status__c,&apos;Partnership Execution&apos;), Relevent_Opportunity_Exists__c == false,
+NOT($Permission.Market_Intelligence),
+NOT($Permission.Override_Validation )
+)</errorConditionFormula>
+    <errorMessage>Please make sure one of these Opportunity/Stage has been created: “Growth/Closed:Succeeded, ERP/Closed:Succeeded, Discovery/Closed Won or Payment/Payment Received”  related to the account or there is manager approval</errorMessage>
+</ValidationRule>

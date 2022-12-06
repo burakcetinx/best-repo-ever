@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Features_Requested__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Did they mention any features they wish Choco had?)</inlineHelpText>
+    <label>Features Requested</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analytics &amp; Reports</fullName>
+                <default>false</default>
+                <label>Analytics &amp; Reports</label>
+            </value>
+            <value>
+                <fullName>Change Supplier Details</fullName>
+                <default>false</default>
+                <label>Change Supplier Details</label>
+            </value>
+            <value>
+                <fullName>Delivery Check</fullName>
+                <default>false</default>
+                <label>Delivery Check</label>
+            </value>
+            <value>
+                <fullName>Inventory Tracking</fullName>
+                <default>false</default>
+                <label>Inventory Tracking</label>
+            </value>
+            <value>
+                <fullName>Minimum Order Value</fullName>
+                <default>false</default>
+                <label>Minimum Order Value</label>
+            </value>
+            <value>
+                <fullName>Order Drafts</fullName>
+                <default>false</default>
+                <label>Order Drafts</label>
+            </value>
+            <value>
+                <fullName>Payments</fullName>
+                <default>false</default>
+                <label>Payments</label>
+            </value>
+            <value>
+                <fullName>POS Integration</fullName>
+                <default>false</default>
+                <label>POS Integration</label>
+            </value>
+            <value>
+                <fullName>Product Pictures</fullName>
+                <default>false</default>
+                <label>Product Pictures</label>
+            </value>
+            <value>
+                <fullName>Product Prices</fullName>
+                <default>false</default>
+                <label>Product Prices</label>
+            </value>
+            <value>
+                <fullName>Reminder for Orders</fullName>
+                <default>false</default>
+                <label>Reminder for Orders</label>
+            </value>
+            <value>
+                <fullName>Roles &amp; Permissions</fullName>
+                <default>false</default>
+                <label>Roles &amp; Permissions</label>
+            </value>
+            <value>
+                <fullName>Search by Product not Supplier</fullName>
+                <default>false</default>
+                <label>Search by Product not Supplier</label>
+            </value>
+            <value>
+                <fullName>Web / Desktop Application</fullName>
+                <default>false</default>
+                <label>Web / Desktop Application</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Analytics</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Analytics</label>
+            </value>
+            <value>
+                <fullName>Multilocation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Multilocation</label>
+            </value>
+            <value>
+                <fullName>Order tracking</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Order tracking</label>
+            </value>
+            <value>
+                <fullName>Permissions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Permissions</label>
+            </value>
+            <value>
+                <fullName>Prices</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prices</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Looker_Account_History__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+NOT(ISBLANK( Admin_ID__c)),
+HYPERLINK(
+&quot;https://chocoapp.de.looker.com/dashboards/981?Buyer+Name=&amp;Order+Month=6+month&amp;Buyer+Entity+ID=&quot;+Admin_ID__c+&quot;&amp;Region=&quot;,
+&quot;Open Looker Deep Dive&quot;,&quot;_self&quot;
+),
+HYPERLINK(
+&quot;https://chocoapp.de.looker.com/dashboards/981?Buyer+Name=&amp;Order+Month=6+month&amp;Buyer+Entity+ID=&amp;Region=&quot;,
+&quot;Search in Looker Deep Dive&quot;,&quot;_self&quot;
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Looker Account History</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

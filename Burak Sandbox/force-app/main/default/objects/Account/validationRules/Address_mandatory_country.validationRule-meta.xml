@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_mandatory_country</fullName>
+    <active>true</active>
+    <description>EDIT: Added override validation permission</description>
+    <errorConditionFormula>AND(
+NOT( $Permission.Override_Validation ),
+NOT( $Permission.Market_Intelligence ),
+ISBLANK(   BillingCountry )
+)</errorConditionFormula>
+    <errorDisplayField>BillingCountry</errorDisplayField>
+    <errorMessage>Please fill out the Country</errorMessage>
+</ValidationRule>

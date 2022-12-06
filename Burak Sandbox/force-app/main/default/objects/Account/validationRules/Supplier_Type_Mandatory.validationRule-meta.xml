@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Type_Mandatory</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+AND(
+ISNEW(),
+ISBLANK( TEXT(Supplier_Type__c)),
+RecordTypeId = $Label.Account_Record_Type_Supplier,
+OR(
+ISPICKVAL( Account_Status__c, &quot;In Contact&quot;),
+ISPICKVAL( Account_Status__c, &quot;DM Met&quot;),
+ISPICKVAL( Account_Status__c, &quot;List Partnership&quot;),
+ISPICKVAL( Account_Status__c, &quot;Lead Partnership&quot;)
+)
+),
+AND(
+ISCHANGED( Account_Status__c ),
+ISBLANK( TEXT( Supplier_Type__c )),
+RecordTypeId = $Label.Account_Record_Type_Supplier ,
+OR(
+ISPICKVAL( Account_Status__c, &quot;In Contact&quot;),
+ISPICKVAL( Account_Status__c, &quot;DM Met&quot;),
+ISPICKVAL( Account_Status__c, &quot;List Partnership&quot;),
+ISPICKVAL( Account_Status__c, &quot;Lead Partnership&quot;)
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Supplier_Type__c</errorDisplayField>
+    <errorMessage>Please choose the Supplier Type.</errorMessage>
+</ValidationRule>

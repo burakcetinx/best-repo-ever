@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FF_Updated_Record_Info__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Identifies if a FullFunnel team member corrected information on the record.</description>
+    <externalId>false</externalId>
+    <label>FF Updated Record Info</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

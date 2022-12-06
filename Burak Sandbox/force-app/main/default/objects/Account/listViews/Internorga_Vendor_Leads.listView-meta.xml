@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internorga_Vendor_Leads</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner_String__c</columns>
+    <columns>Account_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Hidden_ID__c</field>
+        <operation>equals</operation>
+        <value>Internorga_22</value>
+    </filters>
+    <label>Internorga_Vendor Leads</label>
+</ListView>

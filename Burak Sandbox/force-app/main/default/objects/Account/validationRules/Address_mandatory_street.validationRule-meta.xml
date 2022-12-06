@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_mandatory_street</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $Permission.Override_Validation ),
+NOT(RecordType.DeveloperName = &apos;Supplier&apos;),
+NOT( $Permission.Market_Intelligence ),
+NOT(RecordType.DeveloperName = &apos;Buyer_Group&apos;),
+ISBLANK(BillingStreet ) 
+)</errorConditionFormula>
+    <errorDisplayField>BillingStreet</errorDisplayField>
+    <errorMessage>Please fill out the Street</errorMessage>
+</ValidationRule>

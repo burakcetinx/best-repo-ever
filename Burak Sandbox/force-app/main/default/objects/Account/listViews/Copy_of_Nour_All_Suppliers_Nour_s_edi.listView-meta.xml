@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Nour_All_Suppliers_Nour_s_edi</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Status_Comment__c</columns>
+    <columns>Total_Orders__c</columns>
+    <columns>Nr_of_Buyers__c</columns>
+    <columns>Nr_of_active_Buyers__c</columns>
+    <columns>Account_Owner_String__c</columns>
+    <columns>Admin_ID__c</columns>
+    <columns>Partnership_Type__c</columns>
+    <columns>Account_Status__c</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Supplier</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>Sean</value>
+    </filters>
+    <label>Copy of Nour - All Suppliers (Nour&apos;s edi</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Entry_Role_only_stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+
+ISCHANGED( Account_Status__c  ), 
+
+OR( 
+NOT(ISPICKVAL(PRIORVALUE(Account_Status__c)  , &quot;Data received&quot;)), 
+NOT(ISPICKVAL(Account_Status__c  , &quot;Account created&quot;)) 
+), 
+$UserRole.Name = &quot;Data Entry Agent&quot;  
+)</errorConditionFormula>
+    <errorMessage>You cannot change the lead status to this value</errorMessage>
+</ValidationRule>

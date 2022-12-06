@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assortment_Prio__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( 
+Assortment__c , 
+&quot;Equipment&quot;,&quot;LOW&quot;, 
+&quot;Non-Food&quot;,&quot;LOW&quot;,
+&quot;Other&quot;,&quot;LOW&quot;,
+&quot;Chemical &amp; Cleaning&quot;,&quot;LOW&quot;,
+&quot;Tea&quot;,&quot;LOW&quot;,
+&quot;Paper &amp; Packaging&quot;,&quot;MEDIUM&quot;,
+&quot;Broadliner&quot;,&quot;TOP&quot;,
+&quot;Spirits&quot;,&quot;LOW&quot;,
+&quot;Wine&quot;,&quot;LOW&quot;,
+&quot;Beer&quot;,&quot;MEDIUM&quot;,
+&quot;Coffee&quot;,&quot;MEDIUM&quot;,
+&quot;Full Assortment &amp; Broadliner&quot;,&quot;TOP&quot;,
+&quot;Full Assortment&quot;,&quot;TOP&quot;,
+&quot;Drinks&quot;,&quot;LOW&quot;,
+&quot;Frozen Goods&quot;,&quot;MEDIUM&quot;,
+&quot;Specialty&quot;,&quot;MEDIUM&quot;,
+&quot;Speciality&quot;,&quot;MEDIUM&quot;,
+&quot;Seafood&quot;,&quot;MEDIUM&quot;,
+&quot;Soft Drinks&quot;,&quot;MEDIUM&quot;,
+&quot;Dry Goods&quot;,&quot;MEDIUM&quot;,
+&quot;Dairy&quot;,&quot;TOP&quot;,
+&quot;Baked Goods&quot;,&quot;TOP&quot;,
+&quot;Meat&quot;,&quot;TOP&quot;,
+&quot;Meat &amp; Poultry&quot;,&quot;TOP&quot;,
+&quot;Produce&quot;,&quot;TOP&quot;,
+&quot; &quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Assortment Prio</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

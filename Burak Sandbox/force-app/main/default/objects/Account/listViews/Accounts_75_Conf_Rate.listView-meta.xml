@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_75_Conf_Rate</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Nr_of_active_Buyers__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Confirmation_Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY_CODE</field>
+        <operation>equals</operation>
+        <value>BE</value>
+    </filters>
+    <filters>
+        <field>Confirmation_Rate__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>75</value>
+    </filters>
+    <label>Accounts_+75%_Conf_Rate</label>
+</ListView>

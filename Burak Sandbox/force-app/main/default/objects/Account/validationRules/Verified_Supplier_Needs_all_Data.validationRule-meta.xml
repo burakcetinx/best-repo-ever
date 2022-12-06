@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verified_Supplier_Needs_all_Data</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( $Permission.Override_Validation ),
+NOT(ISBLANK( Verified_Supplier_Start_Date__c )), 
+OR(
+ISBLANK( TEXT(Assortment__c) ),
+ISBLANK( Secondary_Assortment__c )
+)
+)</errorConditionFormula>
+    <errorDisplayField>Verified_Supplier_Start_Date__c</errorDisplayField>
+    <errorMessage>Please insert all data for verified suppliers: Description, Logo, (primary &amp; secondary) Assortment and Cover Photo</errorMessage>
+</ValidationRule>

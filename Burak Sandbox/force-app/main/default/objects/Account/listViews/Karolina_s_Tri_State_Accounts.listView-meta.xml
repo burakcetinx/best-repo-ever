@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Karolina_s_Tri_State_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_ZIP</field>
+        <operation>notEqual</operation>
+        <value>10034,10040,10033,10032,10031,10039,10030,10037,10027,10026,10025,10024,10023,10019,10036,10018,10001,10011,10014,10012,10013,10282,10007,10280,10006,10004,10005,10002,10009,10003,10010,10016,10017,10022,10065,10021,10075,10028</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>krahn</value>
+    </filters>
+    <label>Karolina&apos;s Tri State Accounts</label>
+</ListView>

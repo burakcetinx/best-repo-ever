@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FF_Rep_Owner__c</fullName>
+    <description>Identifies the FullFunnel team member working this record.</description>
+    <externalId>false</externalId>
+    <label>FF Rep Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alyssa Gesek</fullName>
+                <default>false</default>
+                <label>Alyssa Gesek</label>
+            </value>
+            <value>
+                <fullName>Walt Pitts</fullName>
+                <default>false</default>
+                <label>Walt Pitts</label>
+            </value>
+            <value>
+                <fullName>Ryder Brooks</fullName>
+                <default>false</default>
+                <label>Ryder Brooks</label>
+            </value>
+            <value>
+                <fullName>Xennia Espinoza</fullName>
+                <default>false</default>
+                <label>Xennia Espinoza</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

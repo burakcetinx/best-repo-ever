@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Churn_Miami</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Churn_Reason__c</columns>
+    <columns>Churn_Reason_Details__c</columns>
+    <columns>First_Order_Date__c</columns>
+    <columns>Last_Order_Time__c</columns>
+    <columns>Total_Orders__c</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>equals</operation>
+        <value>Non Active User,Hard Churn</value>
+    </filters>
+    <filters>
+        <field>Metro_Area__c</field>
+        <operation>equals</operation>
+        <value>Miami</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Buyer</value>
+    </filters>
+    <label>Churn Miami</label>
+</ListView>

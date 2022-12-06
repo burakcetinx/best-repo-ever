@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_for_DM_Contact_availability</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $RecordType.Name=&apos;Supplier&apos;,
+    ISCHANGED(Account_Status__c),
+    ISPICKVAL(Account_Status__c,&apos;Decision Maker Reached&apos;),
+    DM_Contact_Available__c == false,
+    NOT($Permission.Market_Intelligence),
+    NOT($Permission.Override_Validation )
+   )</errorConditionFormula>
+    <errorMessage>Please create a DM contact with the appropriate Name, Role and contact details.</errorMessage>
+</ValidationRule>

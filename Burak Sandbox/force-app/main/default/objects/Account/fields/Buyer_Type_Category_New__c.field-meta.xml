@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buyer_Type_Category_New__c</fullName>
+    <externalId>false</externalId>
+    <label>Buyer Type Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Business_Type_New__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>French</fullName>
+                <default>false</default>
+                <label>French</label>
+            </value>
+            <value>
+                <fullName>Gay Bar</fullName>
+                <default>false</default>
+                <label>Gay Bar</label>
+            </value>
+            <value>
+                <fullName>Modern</fullName>
+                <default>false</default>
+                <label>Modern</label>
+            </value>
+            <value>
+                <fullName>Dry Goods</fullName>
+                <default>false</default>
+                <label>Dry Goods</label>
+            </value>
+            <value>
+                <fullName>Ice Cream</fullName>
+                <default>false</default>
+                <label>Ice Cream</label>
+            </value>
+            <value>
+                <fullName>Independent Hotel</fullName>
+                <default>false</default>
+                <label>Independent Hotel</label>
+            </value>
+            <value>
+                <fullName>Elderly home</fullName>
+                <default>false</default>
+                <label>Elderly home</label>
+            </value>
+            <value>
+                <fullName>Comedy Club</fullName>
+                <default>false</default>
+                <label>Comedy Club</label>
+            </value>
+            <value>
+                <fullName>Distilery</fullName>
+                <default>false</default>
+                <label>Distilery</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>Beverages</fullName>
+                <default>false</default>
+                <label>Beverages</label>
+            </value>
+            <value>
+                <fullName>Mediterranean</fullName>
+                <default>false</default>
+                <label>Mediterranean</label>
+            </value>
+            <value>
+                <fullName>American</fullName>
+                <default>false</default>
+                <label>American</label>
+            </value>
+            <value>
+                <fullName>Dive</fullName>
+                <default>false</default>
+                <label>Dive</label>
+            </value>
+            <value>
+                <fullName>Traditional</fullName>
+                <default>false</default>
+                <label>Traditional</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Cake</fullName>
+                <default>false</default>
+                <label>Cake</label>
+            </value>
+            <value>
+                <fullName>Hotel chain</fullName>
+                <default>false</default>
+                <label>Hotel chain</label>
+            </value>
+            <value>
+                <fullName>Prison</fullName>
+                <default>false</default>
+                <label>Prison</label>
+            </value>
+            <value>
+                <fullName>Adult Club</fullName>
+                <default>false</default>
+                <label>Adult Club</label>
+            </value>
+            <value>
+                <fullName>Brewery</fullName>
+                <default>false</default>
+                <label>Brewery</label>
+            </value>
+            <value>
+                <fullName>Meat</fullName>
+                <default>false</default>
+                <label>Meat</label>
+            </value>
+            <value>
+                <fullName>Breakfast</fullName>
+                <default>false</default>
+                <label>Breakfast</label>
+            </value>
+            <value>
+                <fullName>Confectionary</fullName>
+                <default>false</default>
+                <label>Confectionary</label>
+            </value>
+            <value>
+                <fullName>Wine</fullName>
+                <default>false</default>
+                <label>Wine</label>
+            </value>
+            <value>
+                <fullName>Coffee Shop</fullName>
+                <default>false</default>
+                <label>Coffee Shop</label>
+            </value>
+            <value>
+                <fullName>Produce</fullName>
+                <default>false</default>
+                <label>Produce</label>
+            </value>
+            <value>
+                <fullName>Japanese</fullName>
+                <default>false</default>
+                <label>Japanese</label>
+            </value>
+            <value>
+                <fullName>Educational</fullName>
+                <default>false</default>
+                <label>Educational</label>
+            </value>
+            <value>
+                <fullName>Dance</fullName>
+                <default>false</default>
+                <label>Dance</label>
+            </value>
+            <value>
+                <fullName>Winery</fullName>
+                <default>false</default>
+                <label>Winery</label>
+            </value>
+            <value>
+                <fullName>Seafood</fullName>
+                <default>false</default>
+                <label>Seafood</label>
+            </value>
+            <value>
+                <fullName>Fusion</fullName>
+                <default>false</default>
+                <label>Fusion</label>
+            </value>
+            <value>
+                <fullName>Pastry</fullName>
+                <default>false</default>
+                <label>Pastry</label>
+            </value>
+            <value>
+                <fullName>Cocktail</fullName>
+                <default>false</default>
+                <label>Cocktail</label>
+            </value>
+            <value>
+                <fullName>Juicery</fullName>
+                <default>false</default>
+                <label>Juicery</label>
+            </value>
+            <value>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>Fruit / Vegetables</fullName>
+                <default>false</default>
+                <label>Fruit / Vegetables</label>
+            </value>
+            <value>
+                <fullName>German</fullName>
+                <default>false</default>
+                <label>German</label>
+            </value>
+            <value>
+                <fullName>Sports Bar</fullName>
+                <default>false</default>
+                <label>Sports Bar</label>
+            </value>
+            <value>
+                <fullName>Vegan / Vegetarian</fullName>
+                <default>false</default>
+                <label>Vegan / Vegetarian</label>
+            </value>
+            <value>
+                <fullName>Government buildings</fullName>
+                <default>false</default>
+                <label>Government buildings</label>
+            </value>
+            <value>
+                <fullName>Lounge</fullName>
+                <default>false</default>
+                <label>Lounge</label>
+            </value>
+            <value>
+                <fullName>Frozen Food</fullName>
+                <default>false</default>
+                <label>Frozen Food</label>
+            </value>
+            <value>
+                <fullName>Classic Pub</fullName>
+                <default>false</default>
+                <label>Classic Pub</label>
+            </value>
+            <value>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+                <label>Dairy</label>
+            </value>
+            <value>
+                <fullName>Offices</fullName>
+                <default>false</default>
+                <label>Offices</label>
+            </value>
+            <value>
+                <fullName>Gastro Pub</fullName>
+                <default>false</default>
+                <label>Gastro Pub</label>
+            </value>
+            <value>
+                <fullName>Alcohol</fullName>
+                <default>false</default>
+                <label>Alcohol</label>
+            </value>
+            <value>
+                <fullName>Golf Course</fullName>
+                <default>false</default>
+                <label>Golf Course</label>
+            </value>
+            <value>
+                <fullName>Southern</fullName>
+                <default>false</default>
+                <label>Southern</label>
+            </value>
+            <value>
+                <fullName>Brazilian</fullName>
+                <default>false</default>
+                <label>Brazilian</label>
+            </value>
+            <value>
+                <fullName>Fitness</fullName>
+                <default>false</default>
+                <label>Fitness</label>
+            </value>
+            <value>
+                <fullName>Italian</fullName>
+                <default>false</default>
+                <label>Italian</label>
+            </value>
+            <value>
+                <fullName>New American</fullName>
+                <default>false</default>
+                <label>New American</label>
+            </value>
+            <value>
+                <fullName>Latin American</fullName>
+                <default>false</default>
+                <label>Latin American</label>
+            </value>
+            <value>
+                <fullName>Korean</fullName>
+                <default>false</default>
+                <label>Korean</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <label>Charity</label>
+            </value>
+            <value>
+                <fullName>TexMex</fullName>
+                <default>false</default>
+                <label>TexMex</label>
+            </value>
+            <value>
+                <fullName>Garden</fullName>
+                <default>false</default>
+                <label>Garden</label>
+            </value>
+            <value>
+                <fullName>Chicken</fullName>
+                <default>false</default>
+                <label>Chicken</label>
+            </value>
+            <value>
+                <fullName>Asian</fullName>
+                <default>false</default>
+                <label>Asian</label>
+            </value>
+            <value>
+                <fullName>Movie theater</fullName>
+                <default>false</default>
+                <label>Movie theater</label>
+            </value>
+            <value>
+                <fullName>Burger</fullName>
+                <default>false</default>
+                <label>Burger</label>
+            </value>
+            <value>
+                <fullName>Hookah</fullName>
+                <default>false</default>
+                <label>Hookah</label>
+            </value>
+            <value>
+                <fullName>Mexican</fullName>
+                <default>false</default>
+                <label>Mexican</label>
+            </value>
+            <value>
+                <fullName>Indian</fullName>
+                <default>false</default>
+                <label>Indian</label>
+            </value>
+            <value>
+                <fullName>BBQ</fullName>
+                <default>false</default>
+                <label>BBQ</label>
+            </value>
+            <value>
+                <fullName>Cajun</fullName>
+                <default>false</default>
+                <label>Cajun</label>
+            </value>
+            <value>
+                <fullName>Kosher</fullName>
+                <default>false</default>
+                <label>Kosher</label>
+            </value>
+            <value>
+                <fullName>Russian</fullName>
+                <default>false</default>
+                <label>Russian</label>
+            </value>
+            <value>
+                <fullName>Peruvian</fullName>
+                <default>false</default>
+                <label>Peruvian</label>
+            </value>
+            <value>
+                <fullName>Colombian</fullName>
+                <default>false</default>
+                <label>Colombian</label>
+            </value>
+            <value>
+                <fullName>Argentinian</fullName>
+                <default>false</default>
+                <label>Argentinian</label>
+            </value>
+            <value>
+                <fullName>Venezuelan</fullName>
+                <default>false</default>
+                <label>Venezuelan</label>
+            </value>
+            <value>
+                <fullName>Chilean</fullName>
+                <default>false</default>
+                <label>Chilean</label>
+            </value>
+            <value>
+                <fullName>Caribbean</fullName>
+                <default>false</default>
+                <label>Caribbean</label>
+            </value>
+            <value>
+                <fullName>Hawaiian</fullName>
+                <default>false</default>
+                <label>Hawaiian</label>
+            </value>
+            <value>
+                <fullName>European</fullName>
+                <default>false</default>
+                <label>European</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Portuguese</fullName>
+                <default>false</default>
+                <label>Portuguese</label>
+            </value>
+            <value>
+                <fullName>Greek</fullName>
+                <default>false</default>
+                <label>Greek</label>
+            </value>
+            <value>
+                <fullName>Scandinavian</fullName>
+                <default>false</default>
+                <label>Scandinavian</label>
+            </value>
+            <value>
+                <fullName>British</fullName>
+                <default>false</default>
+                <label>British</label>
+            </value>
+            <value>
+                <fullName>Irish</fullName>
+                <default>false</default>
+                <label>Irish</label>
+            </value>
+            <value>
+                <fullName>Swiss</fullName>
+                <default>false</default>
+                <label>Swiss</label>
+            </value>
+            <value>
+                <fullName>Polish</fullName>
+                <default>false</default>
+                <label>Polish</label>
+            </value>
+            <value>
+                <fullName>Afghan</fullName>
+                <default>false</default>
+                <label>Afghan</label>
+            </value>
+            <value>
+                <fullName>Lebanese</fullName>
+                <default>false</default>
+                <label>Lebanese</label>
+            </value>
+            <value>
+                <fullName>Egyptian</fullName>
+                <default>false</default>
+                <label>Egyptian</label>
+            </value>
+            <value>
+                <fullName>Turkish</fullName>
+                <default>false</default>
+                <label>Turkish</label>
+            </value>
+            <value>
+                <fullName>Israeli</fullName>
+                <default>false</default>
+                <label>Israeli</label>
+            </value>
+            <value>
+                <fullName>Halal</fullName>
+                <default>false</default>
+                <label>Halal</label>
+            </value>
+            <value>
+                <fullName>Kebab</fullName>
+                <default>false</default>
+                <label>Kebab</label>
+            </value>
+            <value>
+                <fullName>African</fullName>
+                <default>false</default>
+                <label>African</label>
+            </value>
+            <value>
+                <fullName>North African</fullName>
+                <default>false</default>
+                <label>North African</label>
+            </value>
+            <value>
+                <fullName>Middle Eastern</fullName>
+                <default>false</default>
+                <label>Middle Eastern</label>
+            </value>
+            <value>
+                <fullName>Ethiopian</fullName>
+                <default>false</default>
+                <label>Ethiopian</label>
+            </value>
+            <value>
+                <fullName>Pan-Asian</fullName>
+                <default>false</default>
+                <label>Pan-Asian</label>
+            </value>
+            <value>
+                <fullName>Central Asian</fullName>
+                <default>false</default>
+                <label>Central Asian</label>
+            </value>
+            <value>
+                <fullName>Taiwanese</fullName>
+                <default>false</default>
+                <label>Taiwanese</label>
+            </value>
+            <value>
+                <fullName>Chinese</fullName>
+                <default>false</default>
+                <label>Chinese</label>
+            </value>
+            <value>
+                <fullName>Vietnamese</fullName>
+                <default>false</default>
+                <label>Vietnamese</label>
+            </value>
+            <value>
+                <fullName>Filipino</fullName>
+                <default>false</default>
+                <label>Filipino</label>
+            </value>
+            <value>
+                <fullName>Indonesian</fullName>
+                <default>false</default>
+                <label>Indonesian</label>
+            </value>
+            <value>
+                <fullName>Thai</fullName>
+                <default>false</default>
+                <label>Thai</label>
+            </value>
+            <value>
+                <fullName>Nepalese</fullName>
+                <default>false</default>
+                <label>Nepalese</label>
+            </value>
+            <value>
+                <fullName>Sri Lankan</fullName>
+                <default>false</default>
+                <label>Sri Lankan</label>
+            </value>
+            <value>
+                <fullName>Malaysian</fullName>
+                <default>false</default>
+                <label>Malaysian</label>
+            </value>
+            <value>
+                <fullName>Pakistani</fullName>
+                <default>false</default>
+                <label>Pakistani</label>
+            </value>
+            <value>
+                <fullName>Singaporean</fullName>
+                <default>false</default>
+                <label>Singaporean</label>
+            </value>
+            <value>
+                <fullName>Georgian</fullName>
+                <default>false</default>
+                <label>Georgian</label>
+            </value>
+            <value>
+                <fullName>Azeri</fullName>
+                <default>false</default>
+                <label>Azeri</label>
+            </value>
+            <value>
+                <fullName>Kazakh</fullName>
+                <default>false</default>
+                <label>Kazakh</label>
+            </value>
+            <value>
+                <fullName>Mongolian</fullName>
+                <default>false</default>
+                <label>Mongolian</label>
+            </value>
+            <value>
+                <fullName>Oceanic</fullName>
+                <default>false</default>
+                <label>Oceanic</label>
+            </value>
+            <value>
+                <fullName>Catering</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Catering</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hotel</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <controllingFieldValue>Dessert</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <controllingFieldValue>Alcohol Producer</controllingFieldValue>
+            <controllingFieldValue>Commerce</controllingFieldValue>
+            <controllingFieldValue>Events</controllingFieldValue>
+            <controllingFieldValue>Hotel</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <controllingFieldValue>Cafe</controllingFieldValue>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Nightclub</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Catering</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <valueName>French</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Mediterranean</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>American</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Meat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Breakfast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Seafood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <valueName>Fusion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>German</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Cafe</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Vegan / Vegetarian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Southern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Brazilian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Fitness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>New American</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Latin American</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Korean</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>TexMex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Chicken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Asian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Burger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Mexican</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Indian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>BBQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Cajun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Kosher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Russian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Peruvian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Colombian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Argentinian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Venezuelan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Chilean</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Caribbean</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Hawaiian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>European</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Spanish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Portuguese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Greek</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Scandinavian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>British</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Irish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Swiss</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Polish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Afghan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Lebanese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Egyptian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Turkish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Israeli</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Halal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Kebab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>African</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>North African</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Middle Eastern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Ethiopian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Pan-Asian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Central Asian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Taiwanese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Chinese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Vietnamese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Filipino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Indonesian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Thai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Nepalese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Sri Lankan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Malaysian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Pakistani</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Singaporean</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Georgian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Azeri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Kazakh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Mongolian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (delivery)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <valueName>Oceanic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <valueName>Beverages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <valueName>Fruit / Vegetables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <valueName>Frozen Food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Dairy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dessert</controllingFieldValue>
+            <valueName>Ice Cream</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dessert</controllingFieldValue>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <valueName>Cake</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dessert</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <valueName>Japanese</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Restaurant (modern)</controllingFieldValue>
+            <controllingFieldValue>Bistro</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast food)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (standard)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fine dining)</controllingFieldValue>
+            <controllingFieldValue>Restaurant (fast casual)</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Italian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alcohol Producer</controllingFieldValue>
+            <valueName>Distilery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alcohol Producer</controllingFieldValue>
+            <valueName>Brewery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alcohol Producer</controllingFieldValue>
+            <valueName>Winery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Events</controllingFieldValue>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <controllingFieldValue>Nightclub</controllingFieldValue>
+            <valueName>Music</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hotel</controllingFieldValue>
+            <valueName>Independent Hotel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hotel</controllingFieldValue>
+            <valueName>Hotel chain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Dry Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Produce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <controllingFieldValue>Delicatessen</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Alcohol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <controllingFieldValue>Cafe</controllingFieldValue>
+            <controllingFieldValue>Grocery</controllingFieldValue>
+            <valueName>Traditional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <valueName>Confectionary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bakery</controllingFieldValue>
+            <valueName>Pastry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cafe</controllingFieldValue>
+            <valueName>Modern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cafe</controllingFieldValue>
+            <valueName>Coffee Shop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cafe</controllingFieldValue>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Cocktail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cafe</controllingFieldValue>
+            <valueName>Juicery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Gay Bar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Dive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Wine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Sports Bar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Classic Pub</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Gastro Pub</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Garden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bar</controllingFieldValue>
+            <valueName>Hookah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nightclub</controllingFieldValue>
+            <valueName>Comedy Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nightclub</controllingFieldValue>
+            <valueName>Adult Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nightclub</controllingFieldValue>
+            <valueName>Dance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nightclub</controllingFieldValue>
+            <valueName>Lounge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Elderly home</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Prison</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Educational</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Healthcare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Government buildings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Offices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Golf Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Charity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institutional</controllingFieldValue>
+            <valueName>Movie theater</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

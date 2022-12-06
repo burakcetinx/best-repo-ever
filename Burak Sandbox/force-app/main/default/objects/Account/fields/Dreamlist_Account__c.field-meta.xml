@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dreamlist_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Shortlist of 30-50 northstar vendors in the EU to track progress.</description>
+    <externalId>false</externalId>
+    <label>Dreamlist Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

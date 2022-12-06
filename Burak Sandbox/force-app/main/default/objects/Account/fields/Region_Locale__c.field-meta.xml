@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region_Locale__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ISBLANK(Locale__c),
+&apos;&apos;,
+CASE(Locale__c,
+&apos;de-DE&apos;,&apos;Region 1&apos;,
+&apos;en-US&apos;,&apos;Region 3&apos;,
+&apos;fr-FR&apos;,&apos;Region 2&apos;,
+&apos;es-ES&apos;,&apos;Region 4&apos;,
+&apos;en-UK&apos;,&apos;Region 5&apos;,
+&apos;en-GB&apos;,&apos;Region 5&apos;,
+&apos;&apos;
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Region_Locale</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

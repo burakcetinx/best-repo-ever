@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DM_s_Language__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Arabic&quot; ), &quot;Arabic; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Chinese, Mandarin&quot; ), &quot;Chinese, Mandarin; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Danish&quot; ), &quot;Danish; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Dutch&quot; ), &quot;Dutch; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;English, Australian&quot; ), &quot;English, Australian; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;English, British&quot; ), &quot;English, British; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;English, Indian&quot; ), &quot;English, Indian; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;English, US&quot; ), &quot;English, US; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;French&quot; ), &quot;French; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;French, Canadian&quot; ), &quot;French, Canadian; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;German&quot; ), &quot;German; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Hindi&quot; ), &quot;Hindi; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Italian&quot; ), &quot;Italian; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Japanese&quot; ), &quot;Japanese; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Korean&quot; ), &quot;Korean; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Polish&quot; ), &quot;Polish; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Portuguese, Brazilian&quot; ), &quot;Portuguese, Brazilian; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Portuguese, European&quot; ), &quot;Portuguese, European; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Russian&quot; ), &quot;Russian; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Spanish, European&quot; ), &quot;Spanish, European; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Spanish, Mexican&quot; ), &quot;Spanish, Mexican; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Spanish, US&quot; ), &quot;Spanish, US; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Swedish&quot; ), &quot;Swedish; &quot;,null ) &amp;
+IF ( INCLUDES ( Who_is_the_DM__r.Language__c , &quot;Turkish&quot; ), &quot;Turkish; &quot;,null )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DM&apos;s Language</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

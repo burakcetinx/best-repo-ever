@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FF_Company_SAL_Date__c</fullName>
+    <description>Identifies when the person became a Sales Accepted Lead (usually denotes first intro call booked).</description>
+    <externalId>false</externalId>
+    <label>FF Company SAL Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

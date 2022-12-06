@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>of_related_opportunities__c</fullName>
+    <description>Counts how many opportunities are related to this account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Counts how many opportunities are related to this account</inlineHelpText>
+    <label># of related opportunities</label>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

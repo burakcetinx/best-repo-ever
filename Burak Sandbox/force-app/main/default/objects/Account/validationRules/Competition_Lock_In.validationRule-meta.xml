@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competition_Lock_In</fullName>
+    <active>true</active>
+    <description>Follow-Up Reason = &quot;Competition Lock-In&quot; and &quot;Competition__c&quot; is BLANK</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Follow_Up_Reason__c ,&quot;Competition Lock-in&quot;),
+ISBLANK(Competition__c)
+ 
+)</errorConditionFormula>
+    <errorDisplayField>Competition__c</errorDisplayField>
+    <errorMessage>Please select a competitor.</errorMessage>
+</ValidationRule>

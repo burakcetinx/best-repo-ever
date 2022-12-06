@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nr_of_Premium_Order_Management_Opp__c</fullName>
+    <description>Counts up the number of premium order management opportunities and Premium: Marketplace Opportunities that have the relevant statuses
+ - for use with OPSSYS-1030 validation rule name: signed onboarding opportunity check - OPSSYS-1030</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Counts up the number of Premium: order management opportunities with status after signed/onboarding
+OR
+Counts up the number of Premium: Marketplace opportunities with status closed succeeded</inlineHelpText>
+    <label># of Premium Opportunities</label>
+    <summaryFilterItems>
+        <field>Opportunity.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Premium: Marketplace, Premium: Order Management</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.StageName</field>
+        <operation>equals</operation>
+        <value>Signed/Onboarding, Closed Won, Execution, Closed Won, Closed:Succeeded</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

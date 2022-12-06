@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_R1_VM_JOANA_Kanban_Viewcheck</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Assortment__c</columns>
+    <columns>Assortment_Prio__c</columns>
+    <columns>Est_of_Gastronomy_Buyers__c</columns>
+    <columns>Number_of_Active_Users__c</columns>
+    <columns>Confirmation_Rate__c</columns>
+    <columns>Web_Last_Session_Date__c</columns>
+    <columns>Status_Comment__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>contains</operation>
+        <value>1</value>
+    </filters>
+    <label>Copy of R1 VM - JOANA Kanban View</label>
+</ListView>
